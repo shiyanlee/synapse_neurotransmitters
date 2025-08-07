@@ -9,13 +9,13 @@ This repository includes curated synapses with confirmed gt_neurotransmitter pro
 ### Hemibrain 
 
 A. Replication of Eckstein Technique for Training Data
-Retrieve hemibrain neuron IDs from the immunolabelled chart in Eckstein (ground truth).
-Neuron types from step 1 are used to import synapses from the hemibrain dataset via Neuprint.
+- Retrieve hemibrain neuron IDs from the immunolabelled chart in Eckstein (ground truth).
+- Neuron types from step 1 are used to import synapses from the hemibrain dataset via Neuprint.
 
 B. Use of Synapse-Level Predictions from Eckstein (Filtered with Ground Truth)
-Individual synapses from the Feather file are filtered: softmax scores must be in the upper quartile.
-Neurons associated with these synapses must be present in the ground truth set to be included.
-Synapse coordinates are used (double-check this step for correctness).
+- Individual synapses from the Feather file are filtered: softmax scores must be in the upper quartile.
+- Neurons associated with these synapses must be present in the ground truth set to be included.
+- Synapse coordinates are used (double-check this step for correctness).
 
 ### MANC 
 
