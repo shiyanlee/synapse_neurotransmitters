@@ -37,7 +37,7 @@ Glutamate=0.993
 Gaba=0.993
 Acetylcholine=0.994
 
-MANC 
+MANC   
 glutamate=0.9
 gaba=0.95
 acetylcholine=0.97 
