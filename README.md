@@ -25,7 +25,7 @@ B. Use of Synapse-Level Predictions from Eckstein (Filtered with Ground Truth)
 MANC Neuprint includes predicted neurotransmitter labels.
 - Neuron bodyIDs were selected by matching these predictions (using max probability scores) with ground truth neurotransmitter identities from Lacin et al. (2019).
 - For each neurotransmitter class, the top 20 bodyIDs with the highest predicted neurotransmitter probabilities were selected  
-50 synapses form 20 neurons 
+50 synapses from 20 neurons are picked
 
 ## Confidence filtering 
 
