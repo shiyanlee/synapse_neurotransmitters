@@ -24,7 +24,7 @@ MANC Neuprint includes predicted neurotransmitter labels.
 
 ## Confidence filtering 
 
-Synapse from both volumes are model predicted. Synapse confidence thresholds were adjusted per neurotransmitter class to ensure that each of the top 20 neurons contributed at least 15 synapses. Thresholds were pushed to its upper limit—retaining only the highest-confidence predictions across all selected neurons.
+Synapse from both volumes are model predicted. Confidence thresholds were pushed to its upper limit retaining only the highest confidence predictions across all selected neurons.
 
 Hemibrain A method    
 Dopamine=0.98
