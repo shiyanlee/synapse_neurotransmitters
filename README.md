@@ -32,3 +32,16 @@ Bounding boxes (bbox) are small cropped EM focused on the synapse features with 
 * Hemibrain: Bboxes are centered on pre-synaptic points and extend 15 pixels in all x,y and z.
 
 Note: Both pre- and post-synaptic points are enclosed within the box; otherwise, it is flagged in the `any_out_of_range` column of the bbox CSV.
+
+## Confidence filtering 
+
+All confidence thresholds are carefully adjusted to ensure selection of at least 15 synapses from the top 20 neurons in each neurotransmitter class. This pushes the model to its confidence limits, meaning the predicted synapses are highly likely to be correct.
+
+Hemibrain A method    
+Dopamine=0.98
+Octopamine=0.98
+Serotonin=0.99
+Glutamate=0.993
+Gaba=0.993
+Acetylcholine=0.994
+
