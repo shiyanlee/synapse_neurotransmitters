@@ -22,6 +22,7 @@ B. Use of Synapse-Level Predictions from Eckstein (Filtered with Ground Truth)
 
 
 ### MANC 
+- Retrieve MANC neuron IDs from immunolabelled chart from Lacin 2019 (ground truth) and import synapses from neuprint with filtered confidence. 
 
 
 ## Data format 
