@@ -25,7 +25,8 @@ B. Use of Synapse-Level Predictions from Eckstein (Filtered with Ground Truth)
 
 ## Data format 
 
-* MANC: Bboxes are centered on pre-synaptic points and extend 65 pixels in all directions. 
-* Hemibrain: Bboxes are centered on pre-synaptic points and extend 15 pixels in all directions.
+Bounding boxes (bbox) are small cropped EM focused on the synapse features with sufficient surrounding context.  
+* MANC: Bboxes are centered on pre-synaptic points and extend 65 pixels in all x,y and z. 
+* Hemibrain: Bboxes are centered on pre-synaptic points and extend 15 pixels in all x,y and z.
 
 Note: Both pre- and post-synaptic points are enclosed within the box; otherwise, it is flagged in the `any_out_of_range` column of the bbox CSV.
