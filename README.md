@@ -25,14 +25,6 @@ B. Use of Synapse-Level Predictions from Eckstein (Filtered with Ground Truth)
 - Retrieve MANC neuron IDs from immunolabelled chart from Lacin 2019 (ground truth) and import synapses from neuprint with filtered confidence. 
 
 
-## Data format 
-
-Bounding boxes (bbox) are small cropped EM focused on the synapse features with sufficient surrounding context.  
-* MANC: Bboxes are centered on pre-synaptic points and extend 65 pixels in all x,y and z. 
-* Hemibrain: Bboxes are centered on pre-synaptic points and extend 15 pixels in all x,y and z.
-
-Note: Both pre- and post-synaptic points are enclosed within the box; otherwise, it is flagged in the `any_out_of_range` column of the bbox CSV.
-
 ## Confidence filtering 
 
 Confidence thresholds were adjusted per neurotransmitter class to ensure that each of the top 20 neurons contributed at least 15 synapses. Confidences were pushed its upper limit—retaining only the highest-confidence predictions across all selected neurons.
@@ -44,4 +36,12 @@ Serotonin=0.99
 Glutamate=0.993
 Gaba=0.993
 Acetylcholine=0.994
+
+## Data format 
+
+Bounding boxes (bbox) are small cropped EM focused on the synapse features with sufficient surrounding context.  
+* MANC: Bboxes are centered on pre-synaptic points and extend 65 pixels in all x,y and z. 
+* Hemibrain: Bboxes are centered on pre-synaptic points and extend 15 pixels in all x,y and z.
+
+Note: Both pre- and post-synaptic points are enclosed within the box; otherwise, it is flagged in the `any_out_of_range` column of the bbox CSV.
 
