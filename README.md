@@ -47,9 +47,8 @@ Hemibrain B:15 synapses from 20 neurons with the highest number of synapses from
 MANC:50 synapses from 20 neurons are picked. 
 
 **Bounding Boxes (bbox)**
-Bounding boxes are small cropped EM focused on the synapse features with sufficient surrounding context.  
+Coordinates of small cropped EM bbox focused on the synapse features with sufficient surrounding context.  
 * MANC: Bboxes are centered on pre-synaptic points and extend 65 pixels in all x,y and z. 
 * Hemibrain: Bboxes are centered on pre-synaptic points and extend 15 pixels in all x,y and z.
 
 Note: Both pre- and post-synaptic points are enclosed within the box; otherwise, it is flagged in the `any_out_of_range` column of the bbox CSV.
-
