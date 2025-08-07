@@ -4,6 +4,7 @@ This repository includes curated synapses with confirmed gt_neurotransmitter pro
 
 * MANC neurotransmitter profile from Lacin 2019. Source: funkelab
 * Hemibrain neurotransmitter profile from Eckstein 2024.
+* Tool: neuprint explorer 
 
 ## Curation Process 
 ### Hemibrain 
