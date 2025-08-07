@@ -35,7 +35,7 @@ Note: Both pre- and post-synaptic points are enclosed within the box; otherwise,
 
 ## Confidence filtering 
 
-All confidence thresholds are carefully adjusted to ensure selection of at least 15 synapses from the top 20 neurons in each neurotransmitter class. This pushes the model to its confidence limits, meaning the predicted synapses are highly likely to be correct.
+Confidence thresholds were adjusted per neurotransmitter class to ensure that each of the top 20 neurons contributed at least 15 synapses. Confidences were pushed its upper limit—retaining only the highest-confidence predictions across all selected neurons.
 
 Hemibrain A method    
 Dopamine=0.98
