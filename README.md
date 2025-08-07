@@ -37,6 +37,14 @@ Glutamate=0.993
 Gaba=0.993
 Acetylcholine=0.994
 
+MANC 
+glutamate=0.9
+gaba=0.95
+acetylcholine=0.97 
+
+
+
+
 ## Data format 
 
 Bounding boxes (bbox) are small cropped EM focused on the synapse features with sufficient surrounding context.  
